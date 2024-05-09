@@ -158,7 +158,7 @@ if (cluster.isMaster) {
    console.clear();
    console.log(``);
    console.log(``);
-   console.log(`[!] Attack has sent succesfully `);
+   console.log(`[!] Attack has sent succesfully MAA CHUD GYI BGMI KI `);
    console.log('[!] Target: ' + parsedTarget.host );
    console.log('[!] Time: ' + args.time);
    console.log('[!] Threads: ' + args.threads);
