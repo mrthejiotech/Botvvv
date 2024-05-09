@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const { exec } = require('child_process');
 
 // Ganti dengan token bot Telegram Anda
-const token = '7069670027:AAGrM4SX8wAyoFmZpKQQo83qS3aANewmleI';
+const token = '5590008645:AAGSklC61EoRCNZcGRNpM8-iVirAxvgM3O0';
 
 // Inisialisasi bot dengan token
 const bot = new TelegramBot(token, { polling: true });
@@ -53,11 +53,11 @@ bot.on('message', (msg) => {
         }
         // Menampilkan output stdout jika berhasil
         console.log(`stdout: ${stdout}`);
-        bot.sendMessage(chatId, 'Proses telah dimulai.');
+        bot.sendMessage(chatId, 'The process has started MAA CHOD DO BHEN CHOD PURA BGMI CHOD DO.');
       });
     } else {
       // Memberi tahu pengguna bahwa format pesan tidak benar
-      bot.sendMessage(chatId, 'Format pesan tidak benar. Gunakan format: /mix [url] [time] [thread] [rate]');
+      bot.sendMessage(chatId, 'ABBE GANDU FORMAT GALAT HAI USE THIS FORMAT: /mix [url] [time] [thread] [rate]');
     }
   }
 });
